@@ -28,6 +28,11 @@ https://www.aren.co.ke/payroll/taxrates.htm Links to an external site.
 https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye
 
 ## Project setup
+We want to ensure all of our programs work in order to get:
+       (i) Generation of grade
+      (ii) Speed detection and ticket issuing
+     (iii) Income tax calculation
+
 
 ## Author
 The project was contributed to by:

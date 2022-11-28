@@ -55,19 +55,12 @@ speedDetector()
 
 
 //CHALLENGE 3
-//
-const grossSalary = basicSalary + benefits;
-const nssf = calculateNSSF(grossSalary);
-const taxableIncome = grossSalary-nssf;
-const taxBeforeRelief = calculateTax(taxableIncome);
-const personalRelief = 2400;
-const nhif = calculateNHIF(grossSalary);
-const insuranceRelief = nhif*0.15;
-const taxes = taxBeforeRelief-(personalRelief+insuranceRelief);
 
+    let gross = salary + benefits;
 // We want to declare a function that will help us to calculate how  much nssf someone is to pay
 // Since the pensionable pay to NSSF is 6%, we will use 0.06 multiplying it to the basicSalary in ordr to get the actual amount
-function calculateNSSF(grossSalary){
+
+function calculateNSSF(basicSalary){
     let nssf;
     if(basicSalary<=6000){
     nssf = basicSalary*0.06;
@@ -94,7 +87,10 @@ function calculateTax(taxableIncome){
         tax = (24000*0.1)+((8333)*0.25)+((taxableIncome-32333)*0.3);
     }
     return tax;
+
 }
+// The else statement helps to show how much one gets deducted in accorance to thir pay
+// The more one is paid the more they will pay
 function calculateNHIF(pay){
     let deduction;
     if(pay<=5999){
@@ -151,5 +147,3 @@ function calculateNHIF(pay){
 
     return deduction;
 }
-
-netSalaryCalculator()
