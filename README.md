@@ -67,8 +67,9 @@ Open it in any editor of your choice.
   git clone https://github.com/Jobwawesh/code-challenge-week-1
 
   ## Running the Application
-  - Run the Application
-  *node index.js* 
+- Run the Application
+
+  `node index.js`
 
 
 ## Author
