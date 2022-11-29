@@ -27,11 +27,45 @@ https://www.aren.co.ke/payroll/taxrates.htm Links to an external site.
 
 https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye
 
-## Project setup
-We want to ensure all of our programs work in order to get:
-       (i) Generation of grade
-      (ii) Speed detection and ticket issuing
-     (iii) Income tax calculation
+# Project setup
+## Getting started
+In order for you to use the content on this repo ensure you have the following:
+
+A computer that runs on either of the following; (Windows 7+, Linux, Mac OS)
+nodejs 9.0+
+
+    INSTALLATION
+     To use this repo on your machine requires some simple steps
+
+Alternative One
+Open a terminal / command line interface on your computer
+
+Clone the repo by using the following:
+
+  git clone https://github.com/Jobwawesh/code-challenge-week-1
+Be patient as it creates a copy on your local machine for you.
+
+Change directory to the repo folder:
+
+  cd code-challenge-week-1
+(Optional) Open it in Visual Studio Code
+
+  code .
+
+(Alternate Option) 
+Open it in any editor of your choice.
+
+
+Alternative Two
+On the top right corner of this page there is a button labelled Fork.
+
+Click on that button to fork the repo to your own account.
+
+Take on the process in Alternative One above.
+
+Remember to replace your username when cloning.
+
+  git clone https://github.com/Jobwawesh/code-challenge-week-1
 
 
 ## Author
