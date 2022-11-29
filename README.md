@@ -33,39 +33,42 @@ In order for you to use the content on this repo ensure you have the following:
 
 A computer that runs on either of the following; (Windows 7+, Linux, Mac OS)
 nodejs 9.0+
-
-    INSTALLATION
+### INSTALLATION
      To use this repo on your machine requires some simple steps
 
 Alternative One
 Open a terminal / command line interface on your computer
 
-Clone the repo by using the following:
+- Clone the repo by using the following:
 
   git clone https://github.com/Jobwawesh/code-challenge-week-1
-Be patient as it creates a copy on your local machine for you.
+- Be patient as it creates a copy on your local machine for you.
 
-Change directory to the repo folder:
+- Change directory to the repo folder:
 
   cd code-challenge-week-1
-(Optional) Open it in Visual Studio Code
+- (Optional) Open it in Visual Studio Code
 
   code .
 
-(Alternate Option) 
+### (Alternate Option) 
 Open it in any editor of your choice.
 
 
-Alternative Two
-On the top right corner of this page there is a button labelled Fork.
+### Alternative Two
+- On the top right corner of this page there is a button labelled Fork.
 
-Click on that button to fork the repo to your own account.
+- Click on that button to fork the repo to your own account.
 
-Take on the process in Alternative One above.
+- Take on the process in Alternative One above.
 
-Remember to replace your username when cloning.
+- Remember to replace your username when cloning.
 
   git clone https://github.com/Jobwawesh/code-challenge-week-1
+
+  ## Running the Application
+  - Run the Application
+  *node index.js* 
 
 
 ## Author
