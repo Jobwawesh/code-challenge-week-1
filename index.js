@@ -18,12 +18,13 @@ function gradeGenerator (marks){
     else{
         grade = 'E';
     }
+    return
     // We call the funtion outside the block of code
     // The value we input as the marks which is betwen 0-100 will give us a grade
-    console.log(grade)
+    console.log(`Having this ${marks} will give you this ${grade}`);
    
 }
-// Whatever value we put in the parenthesis will generate an overall grade
+ // Whatever value we put in the parenthesis will generate an overall grade
 gradeGenerator()
 
 
