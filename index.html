@@ -4,52 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Week 1 code challenge</title>
+    <title></title>
     <link rel="stylesheet" href="./main.css" />
 </head>
 <body>
     <section id="home">
-        <h1>PHASE 1 - WEEK 1 - CODE CHALLENGE</h1>
+        <h1>PHASE 1 WEEK 1 CODE CHALLENGE</h1>
       </section>
       <hr />
       <section id="challenge1" class="sec">
-        <h3>Grade Generator</h3>
-        <div id="cont">
+        <h4>Grade Generator</h4>
+        <div id="content">
           <input
-            id="score"
+            id="marks"
             class="input"
             type="number"
-            placeholder="enter score between 0 - 100"
+            placeholder="grade"
             min="0"
             max="100"
           />
-          <button class="btn" id="gradeBtn">check grade</button>
-          <p id="gradeOutput" class="output">Grade will be displayed here</p>
+          <button class="btn" id="gradeBtn">grade</button>
+          <p id="gradeOutput" class="output">Your grade is</p>
         </div>
       </section>
       <hr />
       <section id="challenge2" class="sec">
-        <h3>Speed Detector</h3>
-        <div id="cont">
+        <h4>Speed Detector</h4>
+        <div id="content">
           <input
             id="speed"
             class="input"
             type="number"
-            placeholder="enter speed"
+            placeholder="speed"
             min="0"
             max="400"
           />
           <button class="btn" id="pointsBtn">Check points</button>
           <p id="pointsOutput" class="output">
-            points for exceeded limit
+            points for exceeding the speed limit
           </p>
-          <p class="output" id="messageOutput">......</p>
+          <p class="output" id="messageOutput">_</p>
         </div>
       </section>
       <hr />
       <section id="challenge3" class="sec">
-        <h3>Net Salary Calulator</h3>
-        <div id="cont">
+        <h4>Net Salary Calulator</h4>
+        <div id="content">
           <input
             id="grossSalary"
             class="input"
@@ -60,11 +60,13 @@
           <button class="btn" id="salaryBtn">Check Net Salary</button>
           <p id="nssf" class="output">NSSF: 0</p>
           <p class="output" id="taxableIncome">Taxable income: 0</p>
-          <p class="output" id="payee">PAYEE: 0</p>
+          <p class="output" id="payee">Paye 0</p>
           <p class="output" id="nhif">NHIF: 0</p>
           <p class="output" id="netSalary">Net Salary: 0</p>
         </div>
       </section>
-<script type="module" src="./JS/index.js"></script>
+<script type="module" src="./javaScript/challenge1.js"></script>
+<script type="module" src="./javaScript/challenge2.js"></script>
+<script type="module" src="./javaScript/challenge3.js"></script>
 </body>
 </html>

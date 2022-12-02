@@ -23,5 +23,7 @@ function gradeGenerator (marks){
         return;
     }
     console.log(`Having marks of ${marks} is equal to the grade: ${grade}`);
+
+    let gradeGeneartor = document.getElementById('gradeGenerator').value
 }
 gradeGenerator()
