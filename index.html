@@ -20,11 +20,10 @@
             class="input"
             type="number"
             placeholder="grade"
-            min="0"
-            max="100"
+            onclick="gradeGenerator()"
           />
-          <button class="btn" id="gradeBtn">grade</button>
-          <p id="gradeOutput" class="output">Your grade is</p>
+          <button class="button" id="gradeBtn">grade</button>
+          <input type="submit" value="submit" onclick="gradeGenerator()">
         </div>
       </section>
       <hr />
@@ -36,10 +35,9 @@
             class="input"
             type="number"
             placeholder="speed"
-            min="0"
-            max="400"
+            onclick="speedDetector()"
           />
-          <button class="btn" id="pointsBtn">Check points</button>
+          <button class="button" id="pointsBtn">Check points</button>
           <p id="pointsOutput" class="output">
             points for exceeding the speed limit
           </p>
@@ -54,10 +52,11 @@
             id="grossSalary"
             class="input"
             type="number"
+            onclick="netSalary()"
             placeholder="gross salary"
             min="0"
           />
-          <button class="btn" id="salaryBtn">Check Net Salary</button>
+          <button class="b" id="salaryBtn">Check Net Salary</button>
           <p id="nssf" class="output">NSSF: 0</p>
           <p class="output" id="taxableIncome">Taxable income: 0</p>
           <p class="output" id="payee">Paye 0</p>

@@ -23,6 +23,13 @@ Challenge 3: Net Salary Calculator (Toy Problem)
 Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIFDeductions, NSSFDeductions, gross salary, and net salary. 
 
 # Project setup
+## Live Link
+If you want to see the app running in real-time directly, you can just click on the link below.
+https://code-challenge-week-1.vercel.app/
+
+
+
+
 ## Getting started
 In order for you to use the content on this repo ensure you have the following:
 
@@ -47,7 +54,9 @@ Open a terminal / command line interface on your computer
   code .
 
 ### (Alternate Option) 
-Open it in any editor of your choice.
+Open it in any editor of your choice;
+- Visual Studio Code.
+- Live serve extension
 
 
 ### Alternative Two
@@ -66,10 +75,20 @@ Open it in any editor of your choice.
 
   `node index.js`
 
+## Alternative way or running the Application
+- When you open the provided github link there is an attached deployment that will take you straight to an actual working application. Whic is the same as the one stated earlier
+
+- Below I have attached the live link
+  https://code-challenge-week-1.vercel.app/
+
 
 ## Author
 The project was contributed to by:
 Job Waweru Njung'e (https://github.com/Jobwawesh)
+
+## Contact info
+You can emmail me on job.waweru@student.moringaschool.com
+
 
 ## Lincense
 "ISC"

@@ -1,6 +1,7 @@
 //CODE CHALLENGE 3
 //Net salary calculation
 //create a payroll whose role is to calculate an individual net salary
+let marks = document.getElementById("netSalary").value
 function netSalary(salary,benefits){
     let gross = salary + benefits;
     let NSSF = gross * 0.06;

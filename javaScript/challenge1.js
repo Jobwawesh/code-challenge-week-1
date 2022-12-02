@@ -1,5 +1,6 @@
 //CODE CHALLENGE 3
 // The gradeGeneartor function takes in a value of a student's marks and logs the equivalent grade to the console.
+let marks = document.getElementById("marks").value
 function gradeGenerator (marks){
     let grade;
     // The if-else statements below are used to determine the grade based on the range that the student's marks fall into.
@@ -27,5 +28,3 @@ function gradeGenerator (marks){
 
 }
 gradeGenerator()
-
-let marks = document.getElementById("marks").value
