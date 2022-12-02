@@ -1,5 +1,6 @@
+//CODE CHALLENGE 2
 // The speedDetector function takes in a value of a driver's speed.
-// Based on the speed, if the speed is 70Km/hr or below, the function will log that the speed is ok.
+// If the speed is 70Km/hr or below, the function will log that the speed is ok.
 // If the speed is above 70Km/hr, it will display how many points are deducted from the driver's license or whether the license is suspended.
 function speedDetector (speed){
     // Points variable is used to assign the number of points to a driver.
@@ -31,4 +32,4 @@ function speedDetector (speed){
         console.log('That speed is OK!');
     }
 }
-speedDetector()
+speedDetector(86)

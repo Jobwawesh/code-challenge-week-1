@@ -1,3 +1,4 @@
+//CODE CHALLENGE 3
 //Net salary calculation
 //create a payroll whose role is to calculate an individual net salary
 function netSalary(salary,benefits){
@@ -71,5 +72,4 @@ const result={
 console.table(result)
 
 }
-
-    netSalary(17000,2000);
+netSalary(55000,2000);

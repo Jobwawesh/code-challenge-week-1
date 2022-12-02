@@ -1,3 +1,4 @@
+//CODE CHALLENGE 3
 // The gradeGeneartor function takes in a value of a student's marks and logs the equivalent grade to the console.
 function gradeGenerator (marks){
     let grade;
@@ -24,6 +25,7 @@ function gradeGenerator (marks){
     }
     console.log(`Having marks of ${marks} is equal to the grade: ${grade}`);
 
-    let gradeGeneartor = document.getElementById('gradeGenerator').value
 }
 gradeGenerator()
+
+let marks = document.getElementById("marks").value
