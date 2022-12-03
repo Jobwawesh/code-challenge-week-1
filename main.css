@@ -10,26 +10,35 @@
 }
 body{
     display: flex;
-    height: 100vh;
+    height: 100;
     text-align: center;
-    background-color: rgb(107, 230, 230);
+    background: linear-gradient(45deg, #FC466B, #3F5EFB);
     justify-content: center;
 }
 #home h1{
     width: 70%;
   margin: auto;
   text-align: center;
-  color: rgb(152, 53, 20);
+  color: rgb(5, 4, 105);
 }
-#content {
+#container {
   display:flex;
   flex-direction: column;
-  height: 200px;
+  height: 25;
   width: 200x;
-  justify-content: space-evenly;
+  justify-content: center;
   margin: auto;
-  background-color: rgba(249, 7, 7, 0.662);
+  background: rgba(255,255,255,0.3);
+  box-shadow: rgba(255,255,255,0.2);
+  border-top: 1px solid rgba(255,255,255,0.2);
+  border-left: 1px solid rgba(255,255,255,0.2);
   border-radius: 10px;
   align-items: center;
   text-align: center;
+}
+.input{
+  margin: 30px 70px;
+}
+button{
+  background-color:grey;
 }
